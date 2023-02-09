@@ -1,0 +1,17 @@
+.moto {
+    width: 100%;
+    height: 500px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.moto h1 {
+    font-size: 36px;
+    margin-top: 200px;
+}
+
+.moto p {
+    font-size: 18px;
+    margin-top: 20px;
+}
