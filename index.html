@@ -1,85 +1,30 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <title>HARLEY DAVIDSON MOTORCYCLES</title>
-
-  <style>
-    /* Estilos para el título */
-    h1 {
-      text-align: center;
-      font-size: 2em;
-      font-family: Arial, Helvetica, sans-serif;
-      color: #000;
-
-    }
-
-    /* Estilos para el botón "Inicio" */
-    nav ul {
-      display: flex;
-      justify-content: center;
-      list-style: none;
-      margin: 0;
-      padding: 0;
-
-    }
-
-    /* Estilos para el footer */
-
-    footer {
-      position: absolute;
-      bottom: 20;
-      width: 100%;
-      text-align: center;
-    }
-
-    /* Estilos para la imagen */
-    main img {
-      width: 50%;
-      height: auto;
-      display: block;
-      margin: 0 auto;
-    }
-
-    /* Estilos para el contenedor principal */
-    .header-container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      margin-top: 2em;
-    }
-
-    /* Estilos para el encabezado */
-    .header-container h1 {
-      margin-bottom: 1em;
-    }
-  </style>
-
-
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="index.js"></script>
 </head>
-
 <body>
   <header>
     <nav>
       <ul>
-
         <li><a href="#">Inicio</a></li>
-
       </ul>
     </nav>
   </header>
   <main>
     <div class="header-container">
       <h1>Bienvenido a mi sitio web de motocicletas Harley</h1>
-      <img src="https://dbdzm869oupei.cloudfront.net/img/sticker/preview/25422.png"
-        alt="Imagen de una motocicleta Harley">
-
+      <img src="https://dbdzm869oupei.cloudfront.net/img/sticker/preview/25422.png" alt="Imagen de una motocicleta Harley">
     </div>
   </main>
+  <audio src="audio/misc308.mp3" muted loop id="myAudio"></audio>
+  <button onclick="document.getElementById('myAudio').play()">Play</button>
+  
+
   <footer>
     <p>Copyright © 2023</p>
   </footer>
 </body>
-
 </html>
